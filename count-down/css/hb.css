@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.main{
+    height: 100vh;
+    width: 100%;
+    background: url(../images/happy-bday.webp);
+    background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    align-items: center;
+    color: #057c90;
+    flex-direction: column;
+}
+.timing{
+    width: 100%;
+    margin-top: 10px; 
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+input {
+    /* display: block; */
+    width: 15%;
+    background-color: rgba(3, 124, 140, 0.7);
+    border-color: transparent;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 22px;
+    margin: auto;
+}
+label {
+    font-size: 16px;
+    margin: 10px auto;
+    font-weight: 600;
+}
+.imp {
+    display: flex;
+    flex-direction: column;
+    line-height: 15%;
+}
+.photograph {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.photograph img {
+    border: none;
+    border-radius: 100px;
+    height: 130px;
+    width: 130px;
+}
